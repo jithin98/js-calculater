@@ -1,0 +1,84 @@
+.calc{
+    width: 500px;
+    height: 600px;
+    background-color: darkslategray;
+margin-left: 200px;
+border-radius: 30px;
+}
+#screen{
+
+    pointer-events: none;
+  /* curser canot type in the input box */
+width: 80%;
+height: 40px;
+margin-top: 30px;
+margin-left: 36px;
+border-radius: 30px;
+
+}
+
+.btn{
+    width: 60px;
+    height: 45px;
+    margin: 30px;
+    margin-top: 30px;
+    background-color: rgb(163, 219, 221) ;
+    border-radius: 25px;
+    border: none;
+
+}
+.btn:hover{
+    color: aliceblue;
+    width: 60px;
+    height: 45px;
+    margin: 30px;
+    margin-top: 30px;
+    background-color: rgb(5, 135, 139) ;
+    border-radius: 25px;
+    border: none;
+
+}
+
+.btnClear{
+   
+    width: 100px;
+    height: 45px;
+    margin: 30px;
+    margin-top: 30px;
+    background-color: rgb(251, 84, 84) ;
+    border-radius: 19px;
+    border: none;
+}.btnClear:hover{
+    color: aliceblue;
+    width: 100px;
+    height: 45px;
+    margin: 30px;
+    margin-top: 30px;
+    background-color: rgb(251, 84, 84) ;
+    border-radius: 19px;
+    border: none;
+
+}
+.btnequal{
+    width: 60px;
+    height: 45px;
+    margin: 30px;
+    margin-top: 30px;
+    background-color: rgb(104, 251, 84) ;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-radius: 19px;
+    border: none;
+}.btnequal:hover{
+    color: aliceblue;
+    width: 60px;
+    height: 45px;
+    margin: 30px;
+    margin-top: 30px;
+    background-color: rgb(104, 251, 84) ;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-radius: 19px;
+    border: none;
+
+}
